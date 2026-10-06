@@ -1,0 +1,218 @@
+{
+  "scope": {
+    "reviews": 926051,
+    "products": 2351,
+    "brands": 142,
+    "reviewers": 407314,
+    "first": "Aug 2017",
+    "last": "Mar 2023",
+    "recommend_rate": 84.0,
+    "mean_rating": 4.29
+  },
+  "stars": {
+    "1": {
+      "share_pct": 5.7,
+      "rec_pct": 0.8
+    },
+    "2": {
+      "share_pct": 4.9,
+      "rec_pct": 3.7
+    },
+    "3": {
+      "share_pct": 7.7,
+      "rec_pct": 35.7
+    },
+    "4": {
+      "share_pct": 18.4,
+      "rec_pct": 96.6
+    },
+    "5": {
+      "share_pct": 63.4,
+      "rec_pct": 99.9
+    }
+  },
+  "free": {
+    "share_pct": 15.3,
+    "n_free": 141990,
+    "rec_free": 92.7,
+    "rec_paid": 82.4,
+    "rating_free": 4.53,
+    "rating_paid": 4.25,
+    "by_year": {
+      "2018": 12.0,
+      "2019": 13.9,
+      "2020": 13.3,
+      "2021": 17.0,
+      "2022": 18.7,
+      "2023": 18.5
+    },
+    "precision_check": "40 of 40 randomly sampled matches were genuine free-product reviews",
+    "within_product": {
+      "products": 733,
+      "median_gap_pp": 5.6,
+      "pct_products_free_higher": 80.0
+    },
+    "ranking": {
+      "products": 1320,
+      "bands": {
+        "Under 5%": {
+          "products": 585,
+          "inflation_pp": 0.1
+        },
+        "5-20%": {
+          "products": 321,
+          "inflation_pp": 0.7
+        },
+        "20-50%": {
+          "products": 336,
+          "inflation_pp": 2.1
+        },
+        "Over 50%": {
+          "products": 78,
+          "inflation_pp": 9.6
+        }
+      },
+      "top100_drop_out": 14,
+      "top100_free_share": 25.7,
+      "all_free_share": 15.4
+    }
+  },
+  "themes": {
+    "non_recommenders": 137809,
+    "pct_with_any_theme": 50.8,
+    "table": [
+      {
+        "theme": "Breakouts or irritation",
+        "pct_of_non_recommenders": 16.2,
+        "pct_of_recommenders": 8.1,
+        "times_more_likely": 2.0
+      },
+      {
+        "theme": "No visible results",
+        "pct_of_non_recommenders": 11.3,
+        "pct_of_recommenders": 0.9,
+        "times_more_likely": 11.9
+      },
+      {
+        "theme": "Greasy, sticky or pilling",
+        "pct_of_non_recommenders": 10.9,
+        "pct_of_recommenders": 3.9,
+        "times_more_likely": 2.8
+      },
+      {
+        "theme": "Not worth the price",
+        "pct_of_non_recommenders": 10.1,
+        "pct_of_recommenders": 2.9,
+        "times_more_likely": 3.4
+      },
+      {
+        "theme": "Didn't live up to the hype",
+        "pct_of_non_recommenders": 8.4,
+        "pct_of_recommenders": 0.6,
+        "times_more_likely": 13.4
+      },
+      {
+        "theme": "Drying or tight",
+        "pct_of_non_recommenders": 3.8,
+        "pct_of_recommenders": 1.8,
+        "times_more_likely": 2.1
+      },
+      {
+        "theme": "Strong scent",
+        "pct_of_non_recommenders": 1.8,
+        "pct_of_recommenders": 0.4,
+        "times_more_likely": 4.1
+      },
+      {
+        "theme": "Formula changed",
+        "pct_of_non_recommenders": 1.1,
+        "pct_of_recommenders": 0.2,
+        "times_more_likely": 6.1
+      },
+      {
+        "theme": "Packaging failed",
+        "pct_of_non_recommenders": 0.8,
+        "pct_of_recommenders": 0.2,
+        "times_more_likely": 4.0
+      }
+    ]
+  },
+  "tone": {
+    "share_pct": {
+      "Light": 49.7,
+      "Fair": 29.0,
+      "Medium": 18.4,
+      "Deep": 2.9
+    },
+    "reported_pct": 95.6,
+    "within_product_gap_pp": {
+      "Deep": 0.6,
+      "Fair": -0.6,
+      "Light": 0.2,
+      "Medium": 0.5
+    },
+    "max_abs_category_gap_pp": 3.9
+  },
+  "skin_type": {
+    "share_pct": {
+      "combination": 55.3,
+      "dry": 19.2,
+      "normal": 13.5,
+      "oily": 12.1
+    },
+    "within_product_gap_pp": {
+      "combination": 0.3,
+      "dry": -0.3,
+      "normal": -0.5,
+      "oily": -0.3
+    }
+  },
+  "sunscreen": {
+    "Deep": {
+      "reviews": 934,
+      "mention_pct": 45.6,
+      "complain_pct": 21.1,
+      "rec_pct": 78.6
+    },
+    "Fair": {
+      "reviews": 8711,
+      "mention_pct": 19.0,
+      "complain_pct": 7.0,
+      "rec_pct": 76.9
+    },
+    "Light": {
+      "reviews": 15802,
+      "mention_pct": 19.8,
+      "complain_pct": 6.8,
+      "rec_pct": 78.5
+    },
+    "Medium": {
+      "reviews": 5897,
+      "mention_pct": 27.1,
+      "complain_pct": 10.5,
+      "rec_pct": 79.0
+    }
+  },
+  "price": {
+    "Under $25": {
+      "reviews": 233369,
+      "rec_pct": 81.8
+    },
+    "$25-50": {
+      "reviews": 353961,
+      "rec_pct": 84.1
+    },
+    "$50-75": {
+      "reviews": 202927,
+      "rec_pct": 85.3
+    },
+    "$75-100": {
+      "reviews": 82578,
+      "rec_pct": 86.8
+    },
+    "$100+": {
+      "reviews": 53216,
+      "rec_pct": 83.8
+    }
+  }
+}

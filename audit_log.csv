@@ -1,0 +1,7 @@
+step,rows_before,rows_after,rows_removed,reason
+Loaded review files,1094411,1094411,0,5 files
+Exact duplicate rows,1094411,1094187,224,same review appeared twice
+"Same author, product and text",1094187,1093854,333,resubmitted review
+Rating outside 1-5,1093854,1093854,0,invalid rating
+No recommend answer,1093854,926051,167803,question not asked before 2018; missingness unrelated to rating
+Product not in product_info,926051,926051,0,cannot attach category
