@@ -18,9 +18,9 @@ A consumer insight study of 926,051 Sephora skincare reviews (2018 to 2023), ask
 
 | Step | Script | What it does |
 |---|---|---|
-| 1 | `src/01_clean.py` | Combines the five review files, removes 557 duplicates and the 167,803 pre-2018 reviews where the recommend question was not asked (missingness unrelated to rating), joins product data, writes `output/audit_log.csv` |
-| 2 | `src/02_analysis.py` | Free-review detection, same-product comparisons, ranking impact, complaint themes, skin tone and type gaps, sunscreen white cast. Every figure in the deck is in `output/results.json` |
-| 3 | `src/03_text_model.py` | TF-IDF + logistic regression on 300,000 paid reviews (hold-out AUC 0.98); its top phrases were used to choose the complaint themes |
+| 1 | `01_clean.py` | Combines the five review files, removes 557 duplicates and the 167,803 pre-2018 reviews where the recommend question was not asked (missingness unrelated to rating), joins product data, writes `audit_log.csv` |
+| 2 | `02_analysis.py` | Free-review detection, same-product comparisons, ranking impact, complaint themes, skin tone and type gaps, sunscreen white cast. Every figure in the deck is in `results.json` |
+| 3 | `03_text_model.py` | TF-IDF + logistic regression on 300,000 paid reviews (hold-out AUC 0.98); its top phrases were used to choose the complaint themes |
 
 **Free-review detection** uses disclosure phrases ("received this complimentary", "gifted", "Influenster", "in exchange for"). 40 of 40 randomly sampled matches were genuine. Undisclosed free reviews are missed, so estimates are conservative.
 
@@ -35,9 +35,9 @@ US data; free reviews detected only when disclosed; keyword themes are approxima
 ```
 pip install pandas scikit-learn
 # download "Sephora Products and Skincare Reviews" from Kaggle into data/
-python src/01_clean.py data output
-python src/02_analysis.py output
-python src/03_text_model.py output
+python 01_clean.py data .
+python 02_analysis.py .
+python 03_text_model.py .
 ```
 
 Data: [Sephora Products and Skincare Reviews](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews), Kaggle. Raw data is not included in this repository.
